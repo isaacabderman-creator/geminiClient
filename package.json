@@ -9,6 +9,7 @@
   "keywords": [],
   "type": "module",
   "dependencies": {
-    "@google/genai": "^2.21.0"
+    "@google/genai": "^2.21.0",
+    "typescript": "^7.0.2"
   }
 }

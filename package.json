@@ -11,7 +11,8 @@
   "keywords": [],
   "type": "module",
   "dependencies": {
-    "@google/genai": "^2.21.0"
+    "@google/genai": "^2.21.0",
+    "zod": "^4.5.4"
   },
   "devDependencies": {
     "@types/node": "^26.4.1",

@@ -1,4 +1,3 @@
 import * as fs from "fs";
-import { createSchema, SCHEMA_PATH } from "./scripts/schemaGenerator.js";
-
-if (!fs.existsSync(SCHEMA_PATH)) createSchema();
+import { RESPONSE, createResponse } from "./scripts/createResponseSample.js";
+if (!fs.existsSync(RESPONSE)) createResponse();
